@@ -31,8 +31,8 @@ This can be used as a container for text. Default behavior is to wrap but if you
 
 This can be used to reference local files or online images. 
 
-Local: source={require('./assets/icon.png')}
-Online: source={ { uri: "imageURL" } }
+        Local: source={require('./assets/icon.png')}
+        Online: source={ { uri: "imageURL" } }
 
 ### Touchables
 
@@ -79,3 +79,7 @@ This should allow you to get dynamic dimensions.
 You will need useDeviceOrientation to get an object that will tell you if the device is in portrait of landscape.
 
 ## Flexbox
+
+flex: 1; will take up the entire available space on the screen
+
+Another caveat is that the default flex direction is column, not row.
